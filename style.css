@@ -1,5 +1,5 @@
 body {
-  background-color: #cedbe3;
+  background-color: #e4f1fb;
   font-family: "Montserrat";
   padding: 3em;
 }
@@ -8,7 +8,7 @@ body {
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 100%;
+  width: 90%;
   filter: brightness(110%);
 }
 

@@ -24,8 +24,10 @@ section {
 .content {
   position: sticky;
   position: -webkit-sticky;
-  width: 100%;
+  width: 50%;
   top: 33.3%;
+  background: red;
+  border-radius: 5px;
 }
 
 h1 {

@@ -80,10 +80,11 @@ section:nth-of-type(4) {
   height: 1000px;
 }
 section:nth-of-type(5) {
-  height: 4000px;
+  height: 9000px;
 }
+
 section:nth-of-type(6) {
-  height: 5000px;
+  height: 8000px;
 }
 
 .entered {

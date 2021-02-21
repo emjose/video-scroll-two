@@ -28,21 +28,38 @@ section {
   position: -webkit-sticky;
   width: 55%;
   top: 33.3%;
-  background: red;
+  /* background: red; */
   border-radius: 5px;
 }
 
 h1 {
   font-size: 4em;
-  background: #fff;
+  /* background: rgb(252, 219, 36); */
   display: inline-block;
   padding: 10px 15px;
   border-radius: 5px;
   margin: 0;
   text-transform: uppercase;
+
+  /* background: rgb(255, 214, 33); */
+  background: rgb(255, 203, 33);
+  box-shadow: 10px 8px 25px 0 #b3c0ca;
+
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
 }
+
+#scroll {
+  margin-top: 25px;
+  font-size: 3em;
+}
+
 p {
-  font-size: 1.5em;
+  font-size: 3em;
+}
+
+#peel {
+  font-size: 1.95em;
 }
 
 section:nth-of-type(1) {

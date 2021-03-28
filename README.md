@@ -35,10 +35,10 @@
 <a href=#100days>![#100DaysOfCode](Assets/inter-100hash.png)</a>  
 
 ### Day 16: February 23, 2021
-- I worked on two mini projects with video playback triggered by scrolling for Day 16. See <a href="https://github.com/emjose/video-scroll-one/#header">first video</a> project.
+- I worked on two mini projects with video playback triggered by scrolling for Day 16. 
 
-- This project uses the <a href="https://rgalus.github.io/sticky-js/">Sticky-js</a> plugin to make elements on a page stay visible. 
-  
+- This project uses the <a href="http://stickyjs.com/">Sticky.js</a> plugin to make elements on a page stay visible. See <a href="https://github.com/emjose/video-scroll-one/#header">first video project</a>.
+
 - The animation intervals have some hiccups, but I had fun turning it into a "How to Eat a Banana" tutorial. 
 
 #
@@ -70,9 +70,9 @@ open index.html
 
 <a href=#resources>![Resources](Assets/inter-resources.png)</a>  
 
-- #### [Sticky-js on Github](https://github.com/rgalus/sticky-js)
+- #### [Sticky.js on Github](https://github.com/garand/sticky)
 
-- #### [Sticky-js](https://rgalus.github.io/sticky-js/) by [Rafal Galus](https://github.com/rgalus)
+- #### [Sticky.js](http://stickyjs.com/) by [Anthony Garand](https://github.com/garand)
 
 - #### [Play Video on Scroll Tutorial](https://youtu.be/4LoDqlKMats) by [Technical Tuts 4u](https://www.youtube.com/channel/UCeDbQlQY8jP9wGmBaVWhHMA)
 

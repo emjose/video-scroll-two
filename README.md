@@ -50,13 +50,13 @@
 
 #### Git clone and cd into the repo folder:
 
-```
+```console
 git clone git@github.com:emjose/video-scroll-two.git && cd video-scroll-two
 ```
 
 #### Run the command:
 
-```
+```console
 open index.html
 ```
 

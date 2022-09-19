@@ -28,6 +28,8 @@
 -   [Resources](#resources)
 -   [Let's Connect!](#lets-connect)
 
+<br>
+
 #
 
 <p id="100days"><p>
@@ -41,6 +43,8 @@
 -   This project uses the <a href="http://stickyjs.com/">Sticky.js</a> plugin to make elements on a page stay visible. See <a href="https://github.com/emjose/video-scroll-one/#header">first video project</a>.
 
 -   The animation intervals have some hiccups, but I had fun turning it into a "How to Eat a Banana" tutorial.
+
+<br>
 
 #
 
@@ -60,6 +64,8 @@ git clone git@github.com:emjose/video-scroll-two.git && cd video-scroll-two
 open index.html
 ```
 
+<br>
+
 #
 
 <p id="live-site"><p>
@@ -67,6 +73,12 @@ open index.html
 <a href="https://emjose.github.io/video-scroll-two/">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
 
 <a href="https://emjose.github.io/video-scroll-two/">![Live Site](Assets/016-banana.gif)</a>
+
+• Background video playback can play forwards or backwards depending on direction of vertical scrolling.
+
+• **[Video Scroll 2](https://emjose.github.io/video-scroll-two/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+
+<br>
 
 #
 
@@ -85,6 +97,8 @@ open index.html
 -   #### [17 Amazing Ways to Eat a Banana](https://www.eatthis.com/banana-cooking-tips/)
 
 -   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
+
+<br>
 
 #
 

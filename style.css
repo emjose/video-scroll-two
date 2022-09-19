@@ -1,100 +1,114 @@
 @import url("https://use.typekit.net/eia7dfc.css");
 
+:root {
+	--white: #fff;
+	--black: #000;
+	--orange: rgb(255, 89, 0);
+	--yellow: rgb(255, 203, 33);
+	--body-color: #e4f1fb;
+	--github-fill: #000;
+	--github-color: var(--body-color);
+	--github-focus: var(--orange);
+	--futura: futura-pt-bold, sans-serif;
+	--shadow: 10px 8px 25px 0 #b3c0ca;
+	--animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
 body {
-  background-color: #e4f1fb;
-  font-family: futura-pt-bold, sans-serif;
-  padding: 3em;
+	background-color: var(--body-color);
+	font-family: var(--futura);
+	padding: 3em;
 }
 
 #v0 {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  filter: brightness(110%);
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	filter: brightness(110%);
 }
 
 #set-height {
-  display: block;
+	display: block;
 }
 
 section {
-  z-index: 1;
-  position: relative;
+	z-index: 1;
+	position: relative;
 }
 
 .content {
-  position: sticky;
-  position: -webkit-sticky;
-  width: 55%;
-  top: 33.3%;
-  /* background: red; */
-  border-radius: 5px;
+	position: sticky;
+	position: -webkit-sticky;
+	width: 55%;
+	top: 33.3%;
+	border-radius: 5px;
 }
 
 h1 {
-  font-size: 4em;
-  /* background: rgb(252, 219, 36); */
-  display: inline-block;
-  padding: 10px 15px;
-  border-radius: 5px;
-  margin: 0;
-  text-transform: uppercase;
-
-  /* background: rgb(255, 214, 33); */
-  background: rgb(255, 203, 33);
-  box-shadow: 10px 8px 25px 0 #b3c0ca;
-
-  -webkit-backdrop-filter: blur(10.5px);
-  border-radius: 10px;
+	font-size: 4em;
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin: 0;
+	text-transform: uppercase;
+	background: var(--yellow);
+	box-shadow: var(--shadow);
+	-webkit-backdrop-filter: blur(10.5px);
+	backdrop-filter: blur(10.5px);
+	border-radius: 10px;
 }
 
 #scroll {
-  margin-top: 25px;
-  font-size: 3em;
+	margin-top: 25px;
+	font-size: 3em;
 }
 
 p {
-  font-size: 3em;
+	font-size: 3em;
 }
 
 #peel {
-  font-size: 1.95em;
+	font-size: 1.95em;
 }
 
 .bananalist {
-  font-size: 3em;
-  margin-top: 1em;
+	font-size: 3em;
+	margin-top: 1em;
 }
 
 section:nth-of-type(1) {
-  height: 1200px;
+	height: 1200px;
 }
+
 section:nth-of-type(2) {
-  height: 1200px;
+	height: 1200px;
 }
+
 section:nth-of-type(3) {
-  height: 1200px;
+	height: 1200px;
 }
+
 section:nth-of-type(4) {
-  height: 1000px;
+	height: 1000px;
 }
+
 section:nth-of-type(5) {
-  height: 9000px;
+	height: 9000px;
 }
 
 section:nth-of-type(6) {
-  height: 8000px;
+	height: 8000px;
 }
 
 #next {
-  margin-top: 25px;
-  font-variant: small-caps;
+	margin-top: 25px;
+	font-variant: small-caps;
 }
 
 .entered {
-  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+	-webkit-animation: var(--animation);
+	animation: var(--animation);
 }
 
 /* ----------------------------------------------
@@ -108,26 +122,73 @@ section:nth-of-type(6) {
  * ----------------------------------------
  */
 @-webkit-keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1;
-  }
+	0% {
+		-webkit-filter: blur(12px);
+		filter: blur(12px);
+		opacity: 0;
+	}
+	100% {
+		-webkit-filter: blur(0px);
+		filter: blur(0px);
+		opacity: 1;
+	}
 }
 @keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1;
-  }
+	0% {
+		-webkit-filter: blur(12px);
+		filter: blur(12px);
+		opacity: 0;
+	}
+	100% {
+		-webkit-filter: blur(0px);
+		filter: blur(0px);
+		opacity: 1;
+	}
+}
+
+.github-corner:focus svg path {
+	fill: var(--github-focus);
+}
+
+.github-corner:focus .octo-arm,
+.github-corner:focus .octo-body {
+	fill: var(--github-color);
+}
+
+.github-corner:hover .octo-arm,
+.github-corner:focus .octo-arm {
+	animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+	0%,
+	100% {
+		transform: rotate(0);
+	}
+
+	20%,
+	60% {
+		transform: rotate(-25deg);
+	}
+
+	40%,
+	80% {
+		transform: rotate(10deg);
+	}
+}
+
+@media (max-width: 500px) {
+	.github-corner {
+		display: none;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	p,
+	#scroll,
+	.bananalist {
+		font-size: 28px;
+	}
 }
